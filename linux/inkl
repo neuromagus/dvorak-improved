@@ -6,7 +6,6 @@ xkb_symbols "inkl" {
 	
 	key.type[Group1] = "ONE_LEVEL";
 	key <CAPS> { [ Alt_L ] };
-	key <PRSC> { [ Super_R ] };
 	key <LCTL> { [ Alt_L ] };
     key <LALT> { [ Control_L ] };
     key <RALT> { [ ISO_Level3_Shift ] }; // RAlt
@@ -26,7 +25,7 @@ xkb_symbols "inkl" {
     key <AD08> { [  c,  C, braceright, braceright, Up, Up                ] };
     key <AD09> { [  r,  R, exclam, exclam, Next, Next                    ] };
     key <AD10> { [  l,  L, ampersand, ampersand                          ] };
-    key <AD11> { [  slash,  backslash, backslash, bar, bar               ] };
+    key <AD11> { [  slash,  backslash, bar, bar                          ] };
     key <AD12> { [  numbersign, at, asciicircum, asciicircum             ] };
 
     // Second symbol row
@@ -48,7 +47,7 @@ xkb_symbols "inkl" {
     key <AB03> { [  j,  J, 5, 5, F5, F5                                  ] };
     key <AB04> { [  k,  K, 6, 6, F6, F6                                  ] };
     key <AB05> { [  x,  X                                                ] };
-    key <AB06> { [  b,  B, equal, equal, Greek_sigma, Greek_sigma        ] };
+    key <AB06> { [  b,  B, equal, equal, Greek_SIGMA, Greek_SIGMA        ] };
     key <AB07> { [  m,  M, bracketleft, bracketleft                      ] };
     key <AB08> { [  w,  W, bracketright, bracketright                    ] };
     key <AB09> { [  v,  V                                                ] };
