@@ -4,13 +4,13 @@ partial alphanumeric_keys
 xkb_symbols "inklru" {
 	name[Group1]= "Russian (INKLRU)";
 	
-	key.type[Group1] = "ONE_LEVEL";
-	key <CAPS> { [ Alt_L ] };
-	key <LCTL> { [ Alt_L ] };
+    key.type[Group1] = "ONE_LEVEL";
+    key <CAPS> { [ Super_L ] };
+    key <LWIN> { [ Alt_L ] };
+    key <LCTL> { [ Super_L ] };
     key <LALT> { [ Control_L ] };
     key <RALT> { [ ISO_Level3_Shift ] }; // RAlt
     key <PRSC> { [ ISO_Level5_Shift ] }; // RMeta or PtrSc
-
 
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";	
     
