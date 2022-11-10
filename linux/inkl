@@ -4,9 +4,9 @@ xkb_symbols "inkl" {
     name[Group1]= "English (INKL)";
 
     key.type[Group1] = "ONE_LEVEL";
-    key <CAPS> { [ Super_L ] };
-    key <LWIN> { [ Alt_L ] };
-    key <LCTL> { [ Super_L ] };
+    key <CAPS> { [ Escape ] };
+    key <ESC>  { [ Alt_L ] };
+    key <LCTL> { [ Escape ] };
     key <LALT> { [ Control_L ] };
     key <RALT> { [ ISO_Level3_Shift ] }; // RAlt
     key <PRSC> { [ ISO_Level5_Shift ] }; // RMeta or PtrSc
