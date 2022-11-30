@@ -2,7 +2,7 @@
 
 partial alphanumeric_keys
 xkb_symbols "inklru" {
-	name[Group1]= "Russian (INKLRU)";
+    name[Group1]= "Russian (INKLRU)";
 	
     key.type[Group1] = "ONE_LEVEL";
     key <CAPS> { [ Super_L ] };
@@ -52,6 +52,4 @@ xkb_symbols "inklru" {
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE, semicolon, semicolon               ] };
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU, slash, slash                       ] };
     key <AB10> { [       Cyrillic_io,       Cyrillic_IO, backslash, backslash               ] };
-    
-    include "level5(modifier_mapping)"
 };

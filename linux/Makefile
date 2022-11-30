@@ -10,14 +10,16 @@ install: $(SOURCE) $(TARGETEN) $(TARGETCODE) $(SOURCERU) $(TARGETRU)
 	echo '//INKL//BEGIN' >> $(TARGETEN)
 	cat $(SOURCE) >> $(TARGETEN)
 	echo '//INKL//END' >> $(TARGETEN)
-	sed -i 's/<PRSC>.*/<PRSC> = 134;/' $(TARGETCODE)
+	echo '//INKLFIX//BEGIN' >> $(TARGETCODE)
+	echo 'alias <PRSC> = <RWIN>;' >> $(TARGETCODE)
+	echo '//INKLFIX//END' >> $(TARGETCODE)
 	echo '//INKLRU//BEGIN' >> $(TARGETRU)
 	cat $(SOURCERU) >> $(TARGETRU)
 	echo '//INKLRU//END' >> $(TARGETRU)
 
 uninstall: $(TARGETEN) $(TARGETCODE) $(TARGETRU)
 	sed -i '/^\/\/INKL\/\/BEGIN$$/,/^\/\/INKL\/\/END$$/d' $(TARGETEN)
-	sed -i 's/<PRSC>.*/<PRSC> = 107;/' $(TARGETCODE)
+	sed -i '/^\/\/INKLFIX\/\/BEGIN$$/,/^\/\/INKLFIX\/\/END$$/d' $(TARGETCODE)
 	sed -i '/^\/\/INKLRU\/\/BEGIN$$/,/^\/\/INKLRU\/\/END$$/d' $(TARGETRU)
 
 reinstall:
