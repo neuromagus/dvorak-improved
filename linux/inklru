@@ -12,6 +12,7 @@ xkb_symbols "inklru" {
     key <RALT> { [ ISO_Level3_Shift ] };
     key <PRSC> { [ Super_L ] };
     key <RWIN> { [ Super_L ] };
+    key <RCTL> { [ VoidSymbol ] };
     
     // for this time - disabled this layer
     // key <RWIN> { [ ISO_Level5_Shift ] };
