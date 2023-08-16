@@ -51,8 +51,8 @@ xkb_symbols "inklru" {
     key <AB02> { [       Cyrillic_che,      Cyrillic_CHE, 4, 4, F4, F4                      ] };
     key <AB03> { [       Cyrillic_es,       Cyrillic_ES, 5, 5, F5, F5                       ] };
     key <AB04> { [       Cyrillic_em,       Cyrillic_EM, 6, 6, F6, F6                       ] };
-    key <AB05> { [       Cyrillic_i,        Cyrillic_I, minus, minus                        ] };
-    key <AB06> { [       Cyrillic_te,       Cyrillic_TE, equal, equal                       ] };
+    key <AB05> { [       Cyrillic_i,        Cyrillic_I, equal, equal                        ] };
+    key <AB06> { [       Cyrillic_te,       Cyrillic_TE, minus, minus                       ] };
     key <AB07> { [       Cyrillic_softsign, Cyrillic_SOFTSIGN, colon, colon                 ] };
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE, semicolon, semicolon               ] };
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU, slash, slash                       ] };
