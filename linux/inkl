@@ -27,7 +27,7 @@ xkb_symbols "inkl" {
     key <AD06> { [  f,  F, NoSymbol, NoSymbol, U263B, U263B              ] };
     key <AD07> { [  g,  G, braceleft, braceleft, Prior, Prior            ] };
     key <AD08> { [  c,  C, braceright, braceright, Up, Up                ] };
-    key <AD09> { [  r,  R, exclam, exclam, Next, Next                    ] };
+    key <AD09> { [  r,  R, percent, percent, Next, Next                  ] };
     key <AD10> { [  l,  L, ampersand, ampersand                          ] };
     key <AD11> { [  slash,  backslash, bar, bar                          ] };
     key <AD12> { [  at, numbersign, asciicircum, asciicircum             ] };
@@ -41,8 +41,8 @@ xkb_symbols "inkl" {
     key <AC06> { [  d,  D                                                ] };
     key <AC07> { [  h,  H, parenleft, parenleft, Left, Left              ] };
     key <AC08> { [  t,  T, parenright, parenright, Down, Down            ] };
-    key <AC09> { [  n,  N, question, question, Right, Right              ] };
-    key <AC10> { [  s,  S, percent, percent                              ] };
+    key <AC09> { [  n,  N, exclam, exclam, Right, Right                  ] };
+    key <AC10> { [  s,  S, question, question                            ] };
     key <AC11> { [  minus,  underscore, asciitilde, asciitilde           ] };
 
     // Third symbol row
