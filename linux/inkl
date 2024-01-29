@@ -50,8 +50,8 @@ xkb_symbols "inkl" {
     key <AB02> { [  q,  Q, 4, 4, F4, F4                                  ] };
     key <AB03> { [  j,  J, 5, 5, F5, F5                                  ] };
     key <AB04> { [  k,  K, 6, 6, F6, F6                                  ] };
-    key <AB05> { [  x,  X, equal, equal                                  ] };
-    key <AB06> { [  b,  B, Greek_SIGMA, Greek_SIGMA                      ] };
+    key <AB05> { [  x,  X, Greek_SIGMA, Greek_SIGMA                      ] };                                  ] };
+    key <AB06> { [  b,  B, equal, equal                                  ] };
     key <AB07> { [  m,  M, bracketleft, bracketleft                      ] };
     key <AB08> { [  w,  W, bracketright, bracketright                    ] };
     key <AB09> { [  v,  V                                                ] };
