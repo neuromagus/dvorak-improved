@@ -18,6 +18,20 @@ xkb_symbols "inkl" {
 
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
 
+    // Numbers
+    key <AE01>  {[   1,  exclam     ]};
+    key <AE02>  {[   2,  at     ]};
+    key <AE03>  {[   3,  numbersign ]};
+    key <AE04>  {[   4,  dollar     ]};
+    key <AE05>  {[   5,  percent    ]};
+    key <AE06>  {[   6,  asciicircum    ]};
+    key <AE07>  {[   7,  ampersand  ]};
+    key <AE08>  {[   8,  asterisk   ]};
+    key <AE09>  {[   9,  parenleft  ]};
+    key <AE10>  {[   0,  parenright ]};
+    key <AE11>  {[   minus,  underscore ]};
+    key <AE12>  {[   equal,  plus       ]};
+
     // Top symbol row
     key <AD01> { [  apostrophe, quotedbl, grave, grave, F11, F11         ] };
     key <AD02> { [  comma,  less,   7, 7, F7, F7                         ] };
