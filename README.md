@@ -1,3 +1,3 @@
-#### Improved N1rdeks Keyboard Layout (INKL)
+#### Dvorak Keyboard Layout with Layers (DKLWL)
 
-ver 2.0
+ver 2.1
