@@ -1,5 +1,5 @@
 #### Dvorak Keyboard Layout with Layers (DKLWL)
 
-#### ЙЦУКЕН with layers
+#### RU Typewriter with layers (DKLWLRU)
 
 ver 2.1
