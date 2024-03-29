@@ -1,7 +1,7 @@
 TARGETEN := /usr/share/X11/xkb/symbols/us
 TARGETRU := /usr/share/X11/xkb/symbols/ru
-SOURCE := inkl
-SOURCERU := inklru
+SOURCE := dklwl
+SOURCERU := dklwlru
 
 all: reinstall
 
