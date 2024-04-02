@@ -13,7 +13,7 @@ xkb_symbols "dklwl" {
     key <RWIN> { [ Super_L ] };
     key <RCTL> { [ VoidSymbol ] };
     
-    // for this time - disabled this layer
+    // for this time - layer is disabled
     // key <RWIN> { [ ISO_Level5_Shift ] };
 
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
