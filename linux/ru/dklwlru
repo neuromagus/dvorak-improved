@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // RUSSIAN Typewriter with Layers (DKLWLRU) version 2.1
-=======
-// Dvorak Keyboard Layout with Layers RUSSIAN version 2.1
->>>>>>> 71cb574 (fix names)
 
 partial alphanumeric_keys
 xkb_symbols "dklwlru" {
@@ -38,7 +34,7 @@ xkb_symbols "dklwlru" {
     key <AE12>  {[   equal,  plus       ]};
 
     
-    // Top symbol row
+     // Top symbol row
     key <AD01> { [   Cyrillic_shorti,       Cyrillic_SHORTI, quotedbl, quotedbl, F11, F11   ] };
     key <AD02> { [      Cyrillic_tse,       Cyrillic_TSE, 7, 7, F7, F7                      ] };
     key <AD03> { [        Cyrillic_u,       Cyrillic_U, 8, 8, F8, F8                        ] };
