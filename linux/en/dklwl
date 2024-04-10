@@ -33,7 +33,7 @@ xkb_symbols "dklwl" {
     key <AE12>  {[   equal,  plus       ]};
 
     // Top symbol row
-    key <AD01> { [  apostrophe, quotedbl, grave, grave, F11, F11         ] };
+    key <AD01> { [  slash, backslash, bar, bar                           ] };
     key <AD02> { [  comma,  less,   7, 7, F7, F7                         ] };
     key <AD03> { [  period, greater, 8, 8, F8, F8                        ] };
     key <AD04> { [  p,  P, 9, 9, F9, F9                                  ] };
@@ -43,8 +43,8 @@ xkb_symbols "dklwl" {
     key <AD08> { [  c,  C, braceright, braceright, Up, Up                ] };
     key <AD09> { [  r,  R, percent, percent, Next, Next                  ] };
     key <AD10> { [  l,  L, ampersand, ampersand                          ] };
-    key <AD11> { [  slash,  backslash, bar, bar                          ] };
-    key <AD12> { [  at, numbersign, asciicircum, asciicircum             ] };
+    key <AD11> { [  quotedbl, apostrophe, grave, grave, f11, f11         ] };
+    key <AD12> { [  colon, grave, asciicircum, F12, F12                  ] };
 
     // Second symbol row
     key <AC01> { [  a,  A, 0, 0, F10, F10                                ] };
@@ -57,15 +57,15 @@ xkb_symbols "dklwl" {
     key <AC08> { [  t,  T, parenright, parenright, Down, Down            ] };
     key <AC09> { [  n,  N, exclam, exclam, Right, Right                  ] };
     key <AC10> { [  s,  S, question, question                            ] };
-    key <AC11> { [  minus,  underscore, asciitilde, asciitilde           ] };
+    key <AC11> { [  semicolon, underscore, asciitilde, asciitilde        ] };
 
     // Third symbol row
-    key <AB01> { [  semicolon, colon, dollar, dollar, F12, F12           ] };
+    key <AB01> { [  at, numbersign, dollar, dollar                       ] };
     key <AB02> { [  q,  Q, 4, 4, F4, F4                                  ] };
     key <AB03> { [  j,  J, 5, 5, F5, F5                                  ] };
     key <AB04> { [  k,  K, 6, 6, F6, F6                                  ] };
     key <AB05> { [  x,  X, equal, equal                                  ] };
-    key <AB06> { [  b,  B                                                ] };
+    key <AB06> { [  b,  B, minus, minus                                  ] };
     key <AB07> { [  m,  M, bracketleft, bracketleft                      ] };
     key <AB08> { [  w,  W, bracketright, bracketright                    ] };
     key <AB09> { [  v,  V                                                ] };
