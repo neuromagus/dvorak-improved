@@ -33,7 +33,7 @@ xkb_symbols "dklwl" {
     key <AE12>  {[   equal,  plus       ]};
 
     // Top symbol row
-    key <AD01> { [  quotedbl, apostrophe, grave, grave, F11, F11         ] };
+    key <AD01> { [  semicolon, colon, dollar, dollar, F12, F12           ] };
     key <AD02> { [  comma,  less,   7, 7, F7, F7                         ] };
     key <AD03> { [  period, greater, 8, 8, F8, F8                        ] };
     key <AD04> { [  p,  P, 9, 9, F9, F9                                  ] };
@@ -60,7 +60,7 @@ xkb_symbols "dklwl" {
     key <AC11> { [  minus,  underscore, asciitilde, asciitilde           ] };
 
     // Third symbol row
-    key <AB01> { [  semicolon, colon, dollar, dollar, F12, F12           ] };
+    key <AB01> { [  quotedbl, apostrophe, grave, grave, F11, F11         ] };
     key <AB02> { [  q,  Q, 4, 4, F4, F4                                  ] };
     key <AB03> { [  j,  J, 5, 5, F5, F5                                  ] };
     key <AB04> { [  k,  K, 6, 6, F6, F6                                  ] };
