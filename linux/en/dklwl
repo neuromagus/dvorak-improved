@@ -33,7 +33,7 @@ xkb_symbols "dklwl" {
     key <AE12>  {[   equal,  plus       ]};
 
     // Top symbol row
-    key <AD01> { [  apostrophe, quotedbl, grave, grave, F11, F11         ] };
+    key <AD01> { [  quotedbl, apostrophe, grave, grave, F11, F11         ] };
     key <AD02> { [  comma,  less,   7, 7, F7, F7                         ] };
     key <AD03> { [  period, greater, 8, 8, F8, F8                        ] };
     key <AD04> { [  p,  P, 9, 9, F9, F9                                  ] };
