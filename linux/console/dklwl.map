@@ -1,0 +1,105 @@
+# Dvorak with Layers Console Keymap
+keymaps 0-2,4-6,8-9,12
+#alt_is_meta
+#include "linux-with-alt-and-altgr.inc"
+strings as usual
+
+#==============================================================================
+# Mods
+#==============================================================================
+keycode   1 = Escape
+keycode  14 = Delete
+keycode  15 = Tab
+keycode  28 = Return
+keycode 125 = Control              # default - LWIN
+keycode  29 = Escape               # default - Control
+keycode  42 = Alt                  # default - ShiftL
+keycode  54 = Delete               # default - ShiftR
+keycode  56 = Shift                # default - AltL
+keycode  57 = space
+keycode  58 = Escape               # default - Caps_Lock
+keycode 100 = AltGr
+#==========================================================================
+# Common keys
+#==========================================================================
+# numbers - for compatible
+keycode   2 = one              exclam       
+keycode   3 = two              at            
+keycode   4 = three            numbersign     
+keycode   5 = four             dollar      
+keycode   6 = five             percent    
+keycode   7 = six              asciicircum     
+keycode   8 = seven            ampersand        
+keycode   9 = eight            asterisk        
+keycode  10 = nine             parenleft      
+keycode  11 = zero             parenright    
+keycode  12 = bracketleft      braceleft       
+keycode  13 = bracketright     braceright       
+
+# rows
+    keycode 16 = semicolon colon 
+altgr keycode 16 = dollar
+    keycode 17 = comma less 
+altgr keycode 17 = seven
+    keycode 18 = period greater 
+altgr keycode 18 = eight
+    keycode 19 = p
+altgr keycode 19 = nine
+    keycode 20 = y Y 
+altgr keycode 20 = plus
+    keycode 21 = f 
+    keycode 22 = g  
+altgr keycode 22 = braceleft
+    keycode 23 = c  
+altgr keycode 23 = braceright
+    keycode 24 = r 
+altgr keycode 24 = percent
+    keycode 25 = l 
+altgr keycode 25 = ampersand
+    keycode  26 = slash backslash 
+altgr keycode  26 = bar
+    keycode  27 = at numbersign asciicircum
+altgr keycode  27 = asciicircum
+#------
+    keycode  30 = a 
+altgr keycode  30 = zero
+    keycode  31 = o 
+altgr keycode  31 = one
+    keycode  32 = e 
+altgr keycode  32 = two
+    keycode  33 = u 
+altgr keycode  33 = three
+    keycode  34 = i
+altgr keycode  34 = asterisk
+    keycode  35 = d
+    keycode  36 = h 
+altgr keycode  36 = parenleft
+    keycode  37 = t 
+altgr keycode  37 = parenright
+    keycode  38 = n
+altgr keycode  38 = exclam
+    keycode  39 = s
+altgr keycode  39 = question
+   keycode  40 = minus underscore
+altgr keycode  40 = asciitilde
+# for compatible
+keycode  41 = grave            asciitilde
+keycode  43 = backslash        bar
+#------
+    keycode  44 = quotedbl apostrophe
+altgr keycode  44 = grave
+    keycode  45 = q
+altgr keycode  45 = four
+    keycode  46 = j
+altgr keycode  46 = five
+    keycode  47 = k
+altgr keycode  47 = six
+    keycode  48 = x
+altgr keycode  48 = equal
+    keycode  49 = b
+    keycode  50 = m
+altgr keycode  50 = bracketleft
+    keycode  51 = w
+altgr keycode  51 = bracketright
+    keycode  52 = v
+    keycode  53 = z
