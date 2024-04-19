@@ -1,16 +1,14 @@
-# Russian keyboard layout "Typewriters" with layer (dklwlru)
+# Russian keyboard layout "Typewriters" with layers (dklwlru)
 
 
-## Linux
-
-Install:
+## Linux install:
 
     cd dklwl/linux/ru
     sudo make install
 
-##### Activation in Xorg:
+#### Activation for the Xorg:
 
-    setxkbmap -layout en,ru -variant ,dklwlru
+    setxkbmap -layout en,ru -variant dklwl,dklwlru
 
 or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
 
@@ -23,7 +21,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
         Option "XkbOptions" "grp:win_space_toggle"
     EndSection
 
-#### Activation in the Sway or similar WM, based on Wlroots (add to ~/.config/sway/config):
+#### Activation for the Sway or similar WM, based on Wlroots (add to ~/.config/sway/config):
  
     input "type:keyboard" {
         xkb_layout us,ru
@@ -40,3 +38,5 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
 #### Uninstall:
 
     sudo make uninstall
+
+Enjoy ;}

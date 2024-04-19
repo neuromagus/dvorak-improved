@@ -1,3 +1,6 @@
+# Dvorak keyboard layout with layers (DKLWL).
+
+
 ## Linux install:
 
 run the following commands for install console map and Xorg/Wayland layout:
@@ -10,7 +13,7 @@ run the following commands for install console map and Xorg/Wayland layout:
 
     KEYMAP=dklwl
 
-#### Activation in the X11:
+#### Activation for the X11:
 
     setxkbmap -layout us,yoursecondlanguage -variant dklwl,yourlayoutforsecondlanguage
 
@@ -25,7 +28,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
         Option "XkbOptions" "grp:win_space_toggle"
     EndSection
 
-#### Activation in the Sway or similar WM, based on Wlroots (add to ~/.config/sway/config):
+#### Activation for the Sway or similar WM, based on Wlroots (add to ~/.config/sway/config):
 
     input "type:keyboard" {
         xkb_layout us,yoursecondlanguage
