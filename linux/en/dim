@@ -1,7 +1,10 @@
-// Dvorak Keyboard Layout with Layers version 2.2
+// Dvorak improved version 2.2
+// This layout is licensed under the BSD 3-Clause License.
+// For full license text, see the LICENSE file in the root directory of this project.
+// contributor: neuromagus
 partial alphanumeric_keys
-xkb_symbols "dklwl" {
-    name[Group1]= "English (DKLWL)";
+xkb_symbols "dim" {
+    name[Group1]= "Dvorak improved (DIM)";
 
     key.type[Group1] = "ONE_LEVEL";
     key <CAPS> { [ Escape ] };

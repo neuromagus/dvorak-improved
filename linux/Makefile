@@ -1,14 +1,14 @@
 .DEFAULT_GOAL := all
 
-SOURCE_FILE_1 := linux/console/dklwl.map
-DEST_DIR_1 := /usr/share/kbd/keymaps/i386/dvorak/
+SOURCE_FILE_1 := console/dvorak-improved.map.gz
+DEST_DIR_1 := /usr/share/kbd/keymaps/i386/dvorak
 DEST_FILE_1 := $(DEST_DIR_1)/$(notdir $(SOURCE_FILE_1))
 
 COPY_CMD_1 := cp $(SOURCE_FILE_1) $(DEST_DIR_1)
 RM_CMD_1 := rm -f $(DEST_FILE_1)
 
 TARGET_2 := /usr/share/X11/xkb/symbols/us
-SOURCE_2 := linux/en/dklwl
+SOURCE_2 := en/dim
 
 
 all: reinstall_1 reinstall_2
@@ -22,12 +22,12 @@ uninstall_1:
 	$(RM_CMD_1)
 
 install_2: $(SOURCE_2) $(TARGET_2)
-	echo '//DKLWL//BEGIN' >> $(TARGET_2)
+	echo '//DIM//BEGIN' >> $(TARGET_2)
 	cat $(SOURCE_2) >> $(TARGET_2)
-	echo '//DKLWL//END' >> $(TARGET_2)
+	echo '//DIM//END' >> $(TARGET_2)
 
 uninstall_2: $(TARGET_2)
-	sed -i '/^\/\/DKLWL\/\/BEGIN$$/,/^\/\/DKLWL\/\/END$$/d' $(TARGET_2)
+	sed -i '/^\/\/DIM\/\/BEGIN$$/,/^\/\/DIM\/\/END$$/d' $(TARGET_2)
 
 reinstall_1:
 	$(MAKE) uninstall_1

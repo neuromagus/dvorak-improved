@@ -1,21 +1,29 @@
-# Dvorak keyboard layout with layers (DKLWL).
+# Dvorak improved (DIM)
 
+![Dvorak-improved](./images/dvorak-improved.png)
 
 ## Linux install:
 
 run the following commands for install console map and Xorg/Wayland layout:
     
-    git clone https://github.com/neuromagus/dklwl.git
-    cd dklwl
+    git clone https://github.com/neuromagus/dvorak-improved.git
+    cd dvorak-improved/linux
+    sudo make install
+
+if you want install Russian Keyboard layout (typewriter improved)
+
+    cd dvorak-improved/linux/ru
     sudo make install
 
 #### Activation for the VT console (add to /etc/vconsole.conf or similar):
 
-    KEYMAP=dklwl
+    KEYMAP=dvorak-improved
 
 #### Activation for the X11:
 
-    setxkbmap -layout us,yoursecondlanguage -variant dklwl,yourlayoutforsecondlanguage
+    setxkbmap -layout us -variant dim
+    or
+    setxkbmap -layout us,yoursecondlanguage -variant dim,yourlayoutforsecondlanguage
 
 or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
 
@@ -24,7 +32,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
         MatchIsKeyboard "on"
         Option "XkbLayout" "us,yoursecondlanguage"
         Option "XkbModel" "pc104"
-        Option "XkbVariant" "dklwl,yourlayoutforsecondlanguage"
+        Option "XkbVariant" "dim,yourlayoutforsecondlanguage"
         Option "XkbOptions" "grp:win_space_toggle"
     EndSection
 
@@ -32,7 +40,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
 
     input "type:keyboard" {
         xkb_layout us,yoursecondlanguage
-        xkb_variant dklwl,yourlayoutforsecondlanguage
+        xkb_variant dim,yourlayoutforsecondlanguage
         xkb_options grp:win_space_toggle
         repeat_delay 300
         repeat_rate 50

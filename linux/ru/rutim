@@ -1,8 +1,10 @@
-// RUSSIAN Typewriter with Layers (DKLWLRU) version 3.0
-
+// RUSSIAN Typewriter improved (RUTIM) version 2.2 
+// This layout is licensed under the BSD 3-Clause License.
+// For full license text, see the LICENSE file in the root directory of this project.
+// contributor: neuromagus
 partial alphanumeric_keys
-xkb_symbols "dklwlru" {
-    name[Group1]= "Russian (DKLWLRU)";
+xkb_symbols "rutim" {
+    name[Group1]= "Russian Typewriter (RUTIM)";
 	
     key.type[Group1] = "ONE_LEVEL";
     key <CAPS> { [ Escape ] };
@@ -33,9 +35,8 @@ xkb_symbols "dklwlru" {
     key <AE11>  {[   minus,  underscore ]};
     key <AE12>  {[   equal,  plus       ]};
 
-    
-     // Top symbol row
-    key <AD01> { [   Cyrillic_shorti,       Cyrillic_SHORTI, quotedbl, quotedbl, F11, F11   ] };
+    // Top symbol row
+    key <AD01> { [   Cyrillic_shorti,       Cyrillic_SHORTI, numerosign, numerosign, F11, F11 ] };
     key <AD02> { [      Cyrillic_tse,       Cyrillic_TSE, 7, 7, F7, F7                      ] };
     key <AD03> { [        Cyrillic_u,       Cyrillic_U, 8, 8, F8, F8                        ] };
     key <AD04> { [       Cyrillic_ka,       Cyrillic_KA, 9, 9, F9, F9                       ] };
@@ -62,7 +63,7 @@ xkb_symbols "dklwlru" {
     key <AC11> { [        Cyrillic_e,       Cyrillic_E, underscore, underscore              ] };
 
     // Third symbol row
-    key <AB01> { [       Cyrillic_ya,       Cyrillic_YA, numerosign, numerosign, F12, F12   ] };
+    key <AB01> { [       Cyrillic_ya,       Cyrillic_YA, quotedbl, quotedbl, F12, F12       ] };
     key <AB02> { [       Cyrillic_che,      Cyrillic_CHE, 4, 4, F4, F4                      ] };
     key <AB03> { [       Cyrillic_es,       Cyrillic_ES, 5, 5, F5, F5                       ] };
     key <AB04> { [       Cyrillic_em,       Cyrillic_EM, 6, 6, F6, F6                       ] };
