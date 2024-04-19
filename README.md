@@ -6,11 +6,11 @@ run the following commands for install console map and Xorg/Wayland layout:
     cd dklwl
     sudo make install
 
-##### Activation for the VT console (add to /etc/vconsole.conf or similar):
+#### Activation for the VT console (add to /etc/vconsole.conf or similar):
 
     KEYMAP=dklwl
 
-##### Activation in the X11:
+#### Activation in the X11:
 
     setxkbmap -layout us,yoursecondlanguage -variant dklwl,yourlayoutforsecondlanguage
 
@@ -25,7 +25,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
         Option "XkbOptions" "grp:win_space_toggle"
     EndSection
 
-Activate in Sway or similar WM (add to ~/.config/sway/config):
+#### Activation in the Sway or similar WM, based on Wlroots (add to ~/.config/sway/config):
 
     input "type:keyboard" {
         xkb_layout us,yoursecondlanguage
@@ -35,10 +35,12 @@ Activate in Sway or similar WM (add to ~/.config/sway/config):
         repeat_rate 50
     }
 
-Reinstall (whenever a system-wide XKB package upgrade reverts installation):
+#### Reinstall (whenever a system-wide XKB package upgrade reverts installation):
 
     sudo make reinstall
 
-Uninstall:
+#### Uninstall:
 
     sudo make uninstall
+
+Enjoy ;}
