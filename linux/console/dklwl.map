@@ -11,12 +11,12 @@ keycode   1 = Escape
 keycode  14 = Delete
 keycode  15 = Tab
 keycode  28 = Return
-keycode 125 = Control              # default - LWIN
-keycode  29 = Escape               # default - Control
-keycode  42 = Alt                  # default - ShiftL
+keycode 125 = Alt                  # default - LWIN
+keycode  29 = Escape               # default - ControlL
+keycode  42 = Shift                # default - ShiftL
 keycode  54 = Delete               # default - ShiftR
-keycode  56 = Shift                # default - AltL
-keycode  57 = space
+keycode  56 = Control              # default - AltL
+keycode  57 = Space
 keycode  58 = Escape               # default - Caps_Lock
 keycode 100 = AltGr
 #==========================================================================
