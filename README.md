@@ -11,11 +11,6 @@ run the following commands for install console map and Xorg/Wayland layout:
     cd dvorak-improved/linux
     sudo make install
 
-if you want install Russian Keyboard layout (typewriter improved)
-
-    cd dvorak-improved/linux/ru
-    sudo make install
-
 #### Activation for the VT console (add to /etc/vconsole.conf or similar):
 
     KEYMAP=dvorak-improved
