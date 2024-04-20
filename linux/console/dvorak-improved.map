@@ -1,7 +1,9 @@
-# Dvorak with Layers Console Keymap
+# Dvorak improved for VT
+# This layout is licensed under the BSD 3-Clause License.
+# For full license text, see the LICENSE file in the root directory of this project.
+# contributor: neuromagus
+
 keymaps 0-2,4-6,8-9,12
-#alt_is_meta
-#include "linux-with-alt-and-altgr.inc"
 strings as usual
 
 #==============================================================================
@@ -14,11 +16,12 @@ keycode  28 = Return
 keycode 125 = Alt                  # default - LWIN
 keycode  29 = Escape               # default - ControlL
 keycode  42 = Shift                # default - ShiftL
-keycode  54 = Delete               # default - ShiftR
+keycode  54 = Shift                # default - ShiftR
 keycode  56 = Control              # default - AltL
 keycode  57 = space
 keycode  58 = Escape               # default - Caps_Lock
 keycode 100 = AltGr
+
 #==========================================================================
 # Common keys
 #==========================================================================
