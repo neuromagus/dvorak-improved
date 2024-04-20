@@ -19,6 +19,8 @@ Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
 
 Well done, open the keyboard config and set the ```Dvorak improved``` to default.
 
+Enjoy ;}
+
 ## Linux install:
 
 run the following commands for install console map and Xorg/Wayland layout:
