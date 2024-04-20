@@ -1,4 +1,4 @@
-# Typewriter improved (RUTIM)
+# Russian Typewriter improved (RUTIM)
 
 ### works best with ["Dvorak improved"](https://github.com/neuromagus/dvorak-improved)
 ![typewriter-improved](../../images/typewriter-improved.png)
