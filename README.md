@@ -1,6 +1,6 @@
 # Dvorak improved (DIM)
 
-### works best with ["Typewriter improved"](https://github.com/neuromagus/dvorak-improved/tree/main/linux/ru)
+### works best with ["Russian Typewriter improved"](https://github.com/neuromagus/dvorak-improved/tree/main/linux/ru)
 ![Dvorak-improved](./images/dvorak-improved.png)
 
 ## Linux install:
