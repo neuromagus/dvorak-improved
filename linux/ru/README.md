@@ -3,6 +3,18 @@
 ### works best with ["Dvorak improved"](https://github.com/neuromagus/dvorak-improved)
 ![typewriter-improved](../../images/ru-typewriter-improved.png)
 
+## Windows install:
+
+Download [windows/ru/rutim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/ru/RUTIM.zip), extract, run installator ```RUTIM_amd64.msi``` for 64bit or ```RUTIM_i386.msi``` for 32bit Windows.  
+Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)  
+After installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
+```DIM-modificators-sharpkeys.skl``` in extracted DIM folder.
+Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
+
+Well done, open the keyboard config and set the ```Dvorak improved``` to default.
+
+Enjoy ;}
+
 ## Linux install:
 
     git clone https://github.com/neuromagus/dvorak-improved.git
