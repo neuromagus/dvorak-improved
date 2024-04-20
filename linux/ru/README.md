@@ -5,13 +5,13 @@
 
 ## Windows install:
 
-Download [windows/ru/rutim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/ru/RUTIM.zip), extract, run installator ```RUTIM_amd64.msi``` for 64bit or ```RUTIM_i386.msi``` for 32bit Windows.  
+Download [windows/ru/rutim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/ru/RUTIM.zip), extract, run installer ```RUTIM_amd64.msi``` for 64bit or ```RUTIM_i386.msi``` for 32bit Windows.  
 Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)  
-After installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
-```DIM-modificators-sharpkeys.skl``` in extracted RUTIM folder.
+After installation open the Sharpkeys tool, press the ```Load keys``` menu and choose the file
+```DIM-modificators-sharpkeys.skl``` in the extracted RUTIM folder.
 Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
 
-Well done, open the keyboard config and set the ```Dvorak improved``` to default.
+Well done, open the keyboard config and set the ```Dvorak improved``` as the default.
 
 Enjoy ;}
 
