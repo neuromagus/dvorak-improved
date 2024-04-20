@@ -4,26 +4,26 @@
 
 # Pros
 - Convenient work in Vim, thanks to moving ```Esc``` and ```;```
-- This layout removes the “Emacs pinkie”  and allows you to work comfortably, since the Modifiers are located like in the [original source.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Space-cadet.jpg/1920px-Space-cadet.jpg)
-- Low distance travel, top row (gray buttons on image) only for gaming
+- This layout removes the “Emacs pinkie”  and allows you to work comfortably, since the Modifiers are located as in the [original source.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Space-cadet.jpg/1920px-Space-cadet.jpg)
+- Low distance travel, top row (gray buttons on image) are kept only for gaming
 - Excellent for most types of programming languages and numeric input
 - Excellent for every genre and type of text
 
 ## Windows install:
 
-Download [windows/en/dim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/en/DIM.zip), extract, run installator ```DIM_amd64.msi``` for 64bit or ```DIM_i386.msi``` for 32bit Windows.  
+Download [windows/en/dim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/en/DIM.zip), extract, run the installer ```DIM_amd64.msi``` for 64bit or ```DIM_i386.msi``` for 32bit Windows.  
 Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)  
-After installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
-```DIM-modificators-sharpkeys.skl``` in extracted DIM folder.
+After the installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
+```DIM-modificators-sharpkeys.skl``` in the extracted DIM folder.
 Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
 
-Well done, open the keyboard config and set the ```Dvorak improved``` to default.
+Well done, open the keyboard config and set the ```Dvorak improved``` to be default.
 
 Enjoy ;}
 
 ## Linux install:
 
-run the following commands for install console map and Xorg/Wayland layout:
+run the following commands to install console map and Xorg/Wayland layout:
     
     git clone https://github.com/neuromagus/dvorak-improved.git
     cd dvorak-improved/linux
@@ -60,7 +60,7 @@ or add in /etc/X11/xorg.conf.d/00-keyboard.conf:
         repeat_rate 50
     }
 
-#### Reinstall (whenever a system-wide XKB package upgrade reverts installation):
+#### Reinstall (whenever a system-wide XKB package upgrade reverts the installation):
 
     sudo make reinstall
 
