@@ -11,7 +11,7 @@
 
 ## Windows install:
 
-Download [dim archive](windows/en/dim.zip), extract, run installator ```DIM_amd64.msi``` for 64bit or ```DIM_i386.msi``` for 32bit Windows.
+Download [dim archive](https://github.com/neuromagus/dvorak-improved/blob/main/windows/en/DIM.zip), extract, run installator ```DIM_amd64.msi``` for 64bit or ```DIM_i386.msi``` for 32bit Windows.
 Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)
 after installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
 ```DIM-modificators-sharpkeys.skl``` in extracted DIM folder.
