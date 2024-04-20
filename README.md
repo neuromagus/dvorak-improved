@@ -1,7 +1,13 @@
 # Dvorak improved (DIM)
-
 ### works best with ["Russian Typewriter improved"](https://github.com/neuromagus/dvorak-improved/tree/main/linux/ru)
 ![Dvorak-improved](./images/dvorak-improved.png)
+
+# Pros
+- Convenient work in Vim, thanks to moving ```Esc``` and ```;```
+- This layout removes the “Emacs pinkie”  and allows you to work comfortably, since the Modifiers are located like in the [original source.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Space-cadet.jpg/1920px-Space-cadet.jpg)
+- Low distance travel, top row (gray buttons on image) only for gaming
+- Excellent for most types of programming languages and numeric input
+- Excellent for every genre and type of text
 
 ## Linux install:
 
