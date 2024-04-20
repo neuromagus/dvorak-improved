@@ -23,7 +23,7 @@ Enjoy ;}
 
 ## Linux install:
 
-run the following commands for installing console map and Xorg/Wayland layout:
+run the following commands to install console map and Xorg/Wayland layout:
     
     git clone https://github.com/neuromagus/dvorak-improved.git
     cd dvorak-improved/linux
