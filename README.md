@@ -9,6 +9,16 @@
 - Excellent for most types of programming languages and numeric input
 - Excellent for every genre and type of text
 
+## Windows install:
+
+Download [dim archive](windows/en/dim.zip), extract, run installator ```DIM_amd64.msi``` for 64bit or ```DIM_i386.msi``` for 32bit Windows.
+Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)
+after installation open the Sharpkeys tool, press the ```Load keys``` menu and choose file
+```DIM-modificators-sharpkeys.skl``` in extracted DIM folder.
+Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
+
+Well done, open the keyboard config and set the ```Dvorak improved``` to default.
+
 ## Linux install:
 
 run the following commands for install console map and Xorg/Wayland layout:
