@@ -5,6 +5,7 @@
 # Pros
 - Convenient work in Vim, thanks to moving ```Esc``` and ```;```
 - This layout removes the “Emacs pinkie”  and allows you to work comfortably, since the Modifiers are located as in the [original source.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Space-cadet.jpg/1920px-Space-cadet.jpg)
+- Works with Linux VT Console, Display Servers (Wayland, Xorg), Windows 7/10/11 (ver 64/32 bit).
 - Low distance travel, top row (gray buttons on image) are kept only for gaming
 - Excellent for most types of programming languages and numeric input
 - Excellent for every genre and type of text
