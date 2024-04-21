@@ -1,4 +1,4 @@
-BSD 3-Clause License
+BSD 3-Clause License (Modified)
 
 Copyright (c) 2024, neuromagus
 
@@ -12,14 +12,15 @@ modification, are permitted provided that the following conditions are met:
    this list of conditions and the following disclaimer in the documentation
    and/or other materials provided with the distribution.
 
-3. Neither the name of the copyright holder nor the names of its contributors
-   may be used to endorse or promote products derived from this software without
+3. Neither the name "Dvorak improved", "Russian typewriter improved"  nor 
+   the name of the copyright holder nor the names of its contributors may be
+   used to endorse or promote products derived from  this software without 
    specific prior written permission.
 
-4. Neither the name "Dvorak improved", "Russian typewriter improved" nor
-   any derivative products may use the names "Dvorak improved" or
-   "Russian typewriter improved" without prior written permission from Neuromagus.
-
+4. Products derived from this software may not be called "Dvorak improved", 
+   "Russian typewriter improved" nor may "Dvorak improved", 
+   "Russian typewriter improved" appear in their name, without prior 
+   written permission from Neuromagus.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
