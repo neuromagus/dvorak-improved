@@ -23,7 +23,7 @@ Enjoy ;}
 
 #### Uninstall:
 Select Start > Settings  > Apps > Apps & features
-Select ```Dvorak Improved (DIM)``` > Uninstall
+Select ```Dvorak Improved (DIM)``` > Uninstall  
 Open Sharpkeys > Press the ```Delete All``` button > press the ```Write to registry``` button > LOG  ↪\OUT!
 
 So sad...
