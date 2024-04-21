@@ -8,12 +8,19 @@
 Download [windows/ru/rutim.zip](https://github.com/neuromagus/dvorak-improved/blob/main/windows/ru/RUTIM.zip), extract, run installer ```RUTIM_amd64.msi``` for 64bit or ```RUTIM_i386.msi``` for 32bit Windows.  
 Next, download and install latest version of [Sharpkeys](https://github.com/randyrants/sharpkeys/releases)  
 After installation open the Sharpkeys tool, press the ```Load keys``` menu and choose the file
-```DIM-modificators-sharpkeys.skl``` in the extracted RUTIM folder.
+```RUTIM-modificators-sharpkeys.skl``` in the extracted RUTIM folder.
 Next, press the ```Write to Registry``` menu, close Sharpkeys and LOG OUT!
 
 Well done, open the keyboard config and set the ```Dvorak improved``` as the default.
 
 Enjoy ;}
+
+#### Uninstall:
+Select Start > Settings  > Apps > Apps & features
+Select ```Russian Typewriter Improved (RUTIM)``` > Uninstall
+Open Sharpkeys > Press the ```Delete All``` button > press the ```Write to registry``` button > LOG  ↪\OUT!
+
+So sad...
 
 ## Linux install:
 

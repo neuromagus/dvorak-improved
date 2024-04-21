@@ -21,6 +21,13 @@ Well done, open the keyboard config and set the ```Dvorak improved``` to be defa
 
 Enjoy ;}
 
+#### Uninstall:
+Select Start > Settings  > Apps > Apps & features
+Select ```Dvorak Improved (DIM)``` > Uninstall
+Open Sharpkeys > Press the ```Delete All``` button > press the ```Write to registry``` button > LOG  ↪\OUT!
+
+So sad...
+
 ## Linux install:
 
 run the following commands to install console map and Xorg/Wayland layout:
