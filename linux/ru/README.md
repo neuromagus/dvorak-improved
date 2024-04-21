@@ -1,6 +1,6 @@
 # Russian Typewriter improved (RUTIM)
 
-### works best with ["Dvorak improved"](https://github.com/neuromagus/dvorak-improved)
+### works best with ["Dvorak improved (DIM)"](https://github.com/neuromagus/dvorak-improved)
 ![typewriter-improved](../../images/ru-typewriter-improved.png)
 
 ## Windows install:
