@@ -17,8 +17,8 @@ Enjoy ;}
 
 #### Uninstall:
 Select Start > Settings  > Apps > Apps & features
-Select ```Russian Typewriter Improved (RUTIM)``` > Uninstall
-Open Sharpkeys > Press the ```Delete All``` button > press the ```Write to registry``` button > LOG  ↪\OUT!
+Select ```Russian Typewriter Improved (RUTIM)``` > Uninstall  
+Open Sharpkeys > Press the ```Delete All``` button > press the ```Write to registry``` button > LOG  OUT!
 
 So sad...
 
