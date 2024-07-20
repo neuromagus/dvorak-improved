@@ -1,7 +1,12 @@
 .DEFAULT_GOAL := all
 
 SOURCE_FILE_1 := console/dvorak-improved.map.gz
-DEST_DIR_1 := /usr/share/kbd/keymaps/i386/dvorak
+DEST_DIR_ARCH := /usr/share/kbd/keymaps/i386/dvorak
+DEST_DIR_OTHERS := /usr/share/keymaps/i386/dvorak
+DEST_DIR_1 := $(if $(wildcard $(DEST_DIR_ARCH)),$(DEST_DIR_ARCH),$(DEST_DIR_OTHERS))
+
+
+
 DEST_FILE_1 := $(DEST_DIR_1)/$(notdir $(SOURCE_FILE_1))
 
 COPY_CMD_1 := cp $(SOURCE_FILE_1) $(DEST_DIR_1)
