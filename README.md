@@ -1,3 +1,5 @@
+# Repo is archived and moved to Codeberg - https://codeberg.org/neuromagus/dvorak-improved
+
 # Dvorak improved (DIM)
 ### works best with ["Russian Typewriter improved"](https://github.com/neuromagus/dvorak-improved/tree/main/linux/ru)
 ![Dvorak-improved](./images/dvorak-improved.png)
